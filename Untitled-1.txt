@@ -1,0 +1,223 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\setlength{\footskip}{4.08003pt} % Fix the footskip warning
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\jasphone{+91-9575726001}
+\def\email{akshatawadhiya@gmail.com}
+\def\linkedin{https://www.linkedin.com/in/\href{https://www.linkedin.com/in/akshat-awadhiya}{akshat-awadhiya}}
+\def\github{https://github.com/AkshatAwadhiya}
+\def\leetcode{https://leetcode.com/u/Ari57/}
+\def\portfolio{https://arijitportfolio-57.netlify.app/}
+
+\begin{document}
+
+% Header section
+\begin{center}
+    {\Huge \scshape Akshat Awadhiya} \\ \vspace{1mm}
+    \small
+    \faPhone \, \jasphone \textbar\ 
+    \faEnvelope \, \href{mailto:\email}{\email} \textbar\ 
+    \faLinkedin \, \href{https://www.linkedin.com/in/akshat-awadhiya/}{linkedin.com/akshat-awadhiya} \textbar\ 
+    \faGithub \, \href{https://github.com/AkshatAwadhiya}{github.com/AkshatAwadhiya} \textbar\ 
+    \vspace{-8pt}
+\end{center}
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\resumeItemListStart
+    \resumeItem{\textbf{Programming Languages:} C++, Java, Javascript, Python, SQL}
+    \resumeItem{\textbf{Developer Tools \& Technologies:} React.js, Node.js, Express.js, MySQL, OracleSQL, Git, GitHub, AWS, Data Structures \& Algorithms, Object-Oriented Programming}
+\resumeItemListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{WORK EXPERIENCE}
+\resumeSubHeadingListStart
+\resumeSubheading
+        {India Space Summer Internship  2025}
+        {Jun - Jul 2025}
+        {Technical Intern | India Space Lab}
+        {}
+    \resumeItemListStart
+        \resumeItem{Executed technical training in \textbf{CanSat and CubeSat satellite design}, \textbf{advanced unmanned aerial vehicle (UAV) technology}, and \textbf{rocket propulsion systems}. }
+        \resumeItem{Analyzed and interpreted \textbf{geospatial data} from remote sensing platforms and \textbf{astronomical datasets} to support mission-specific applications. }  
+        \resumeItem{Applied principles of \textbf{space entrepreneurship} to evaluate the commercial viability and market potential of developing space-based technologies.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+        {\textbf{ShopEZ - E-Commerce Platform} | React.js, Node.js, Express.js, MongoDB | [\href{https://github.com/AkshatAwadhiya/smartbridge}{GitHub}]}
+        {Mar-Apr 2025}
+    \resumeItemListStart
+        \resumeItem{
+Architected a secure, responsive MERN stack e‑commerce SPA with multi-variant product support, implementing JWT authentication (access/refresh) and AES-256 encrypted passwords. 
+}
+        \resumeItem{Developed a centralized admin control panel for the management of over 300 products and orders, integrating server‑side pagination and filtering to efficiently handle 1K+ data records. 
+}
+        \resumeItem{Optimized state management using Redux Toolkit and \textbf{AsyncThunk} with integrated toast error handling, and engineered automated email workflows for user confirmations and password resets. 
+}
+    \resumeItemListEnd
+
+    \vspace{0.5em}
+    \resumeProjectHeading
+        {\textbf{Mont} - \textbf{Social Media Marketing}| Javascript, Node.js,React.js-| [\href{https://github.com/AkshatAwadhiya/Mont}{GitHub}]}
+        {Aug 2025}
+    \resumeItemListStart
+        \resumeItem{
+Developed a full-stack social media marketing website for Instagram, implementing a comprehensive user management system with secure sign-up, login, and profile update functionality. 
+}
+        \resumeItem{Implemented crucial security features, including Google reCAPTCHA and comprehensive form validation, to drastically reduce spam and enhance data integrity on the contact and login forms.
+}
+        \resumeItem{Architected and deployed the application using a robust technology stack including React, Express, and Airtable for data management, ensuring a seamless user experience. 
+}
+\resumeItem{Redux Toolkit + AsyncThunk with toast error handling; automated emails for resets and confirmations.
+}
+    \resumeItemListEnd
+    \vspace{0.5em}
+    \resumeProjectHeading
+  {\textbf{Cortexa - Remote Interview Platform} | React.js,Next.js 14, Node.js, Express.js,Convex,Clerk| [\href{https://github.com/D-Arijit57/Cortexa}{GitHub}]}
+        {May-Jul  2025}
+        \resumeItemListStart
+        \resumeItem{
+Developed a full-stack video interviewing platform using Next.js 14 and TypeScript, leveraging \textbf{Stream.io SDK} for real-time video and Clerk for secure, multi-role (candidate, interviewer, admin) user authentication.
+}
+\resumeItem{
+Built a collaborative, interactive code editor supporting four programming languages (JavaScript, Python, Java, C++) with Monaco Editor, featuring a resizable dual-panel interface for simultaneous video conferencing and collaborative coding during technical interviews. 
+}
+\resumeItem{
+Developed a comprehensive scheduling and lifecycle management system, implementing \textbf{server-side mutations} to manage 17 time slots, create video calls, and ensure real-time data synchronization across all interview states (upcoming, completed, failed). 
+}
+        \resumeItemListEnd
+        \vspace{0.5em}
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS \& CERTIFICATIONS-----------
+\section{ACHIEVEMENTS \& CERTIFICATES}
+\resumeItemListStart
+  \resumeItem{\textbf{viksit Bharat 2024: }state-level presenter, delivering a data-backed roadmap for a developed India by 2047 across growth, sustainability, and governance, aligned to the national youth-ideas platform
+}
+    \resumeItem{\textbf{India Space Lab Summer Internship Technical Training Programme 2025:} completed multi-module technical training in Drone Technology, CanSat/CubeSat, Rocketry, Remote Sensing (GIS), Space Entrepreneurship, and Astronomy with a capstone project phase and certificate of completion.}
+
+\resumeItem{\textbf{MERN Full Stack Certification:} Trained in building end-to-end web applications using MongoDB, Express.js,React, and Node.js.}
+\resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vellore Institute of Technology, Bhopal}{}
+      {Bachelor of Technology (B.Tech), Computer Science and Engineering}{CGPA: 7.2/10.0}
+  \resumeSubHeadingListEnd
+
+\end{document}
